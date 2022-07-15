@@ -50,6 +50,8 @@ body{
     margin-top: 40px;
     font-weight: bold;
     font-size: 19px;
+
+    transition: 500ms; /*Essa alteração irá fazer uma transição suave de propriedades CSS*/
 }
 
 .container-password{
@@ -105,4 +107,49 @@ body{
     visibility: visible;
     bottom: 50px;
     opacity: 1;
+}
+
+.anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+/*============PASSTEST AREA============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+h1.logo{
+    text-align: center;
+    color: white;
+}
+
+input#user-password{
+    width: 20%;
+    height: 50px;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+#btn-verificate{
+    margin-top: 30px;
+
+    width: 20%;
+    background-color: grey;
+}
+
+#response-area{
+    padding: 25px;
+    text-align: center;
+    color: white;
+
+    transition: 1.5s;
+}
+
+#response-area:hover{
+    font-size: 1.2rem;
 }
